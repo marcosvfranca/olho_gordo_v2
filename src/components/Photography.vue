@@ -14,7 +14,7 @@
     </div>
     <div class="content-center">
       <router-link to="/galeria">
-        <ImageTitle :src="imageShowMoreSrc" class="block ml-auto mr-auto w-56 -mb-14 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "/>
+        <img :src="imageShowMoreSrc" class="p-5 pt-10 sm:w-8/12 sm:block sm:ml-auto sm:mr-auto block ml-auto mr-auto w-56 -mb-14 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 lg:w-2/12"/>
       </router-link>
     </div>
   </FlexCenter>
