@@ -1,7 +1,7 @@
 <template>
   <div
     class="bg-cover bg-center h-screen"
-    style="background-image: url(../assets/bg-header.jpg)"
+    :style="{ backgroundImage: 'url(' + require('@/assets/bg-header.jpg') + ')' }"
   >
     <FlexCenter class="pt-10">
       <img src="../assets/brand.png">
@@ -24,8 +24,8 @@
 import FlexCenter from './FlexCenter.vue';
 
 export default ({
-    components: {
-        FlexCenter
-    }
+  components: {
+    FlexCenter
+  }
 });
 </script>

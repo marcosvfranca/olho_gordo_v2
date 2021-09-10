@@ -34,11 +34,11 @@
 import ButtonSocialMedia from './ButtonSocialMedia.vue';
 
 export default ({
-    components: {
-        ButtonSocialMedia
-    },
-    methods: {
-        getCurrentYear: () => new Date().getFullYear
-    }
+  components: {
+    ButtonSocialMedia
+  },
+  methods: {
+    getCurrentYear: () => new Date().getFullYear
+  }
 });
 </script>

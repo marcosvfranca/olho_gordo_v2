@@ -13,15 +13,15 @@ import DefaultText from './DefaultText.vue';
 import ImageTitle from './ImageTitle.vue';
 
 export default ({
-    components: {
-        FlexCenter,
-        DefaultText,
-        ImageTitle
-    },
-    data() {
-        return {
-            imageTitleSrc: require('../assets/who_whe_are.png')
-        };
-    }
+  components: {
+    FlexCenter,
+    DefaultText,
+    ImageTitle
+  },
+  data() {
+    return {
+      imageTitleSrc: require('../assets/who_whe_are.png')
+    };
+  }
 });
 </script>

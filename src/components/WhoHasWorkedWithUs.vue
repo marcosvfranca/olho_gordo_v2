@@ -23,15 +23,15 @@ function importAll(r) {
 const who_has_worked_files = importAll(require.context('../assets/worked/', false, /\.(png|jpe?g|svg)$/));
 
 export default ({
-    components: {
-        FlexCenter,
-        ImageTitle
-    },
-    data() {
-        return {
-            images: who_has_worked_files,
-            imageTitleSrc: require('../assets/who_has_worked_with_us.png')
-        };
-    },
+  components: {
+    FlexCenter,
+    ImageTitle
+  },
+  data() {
+    return {
+      images: who_has_worked_files,
+      imageTitleSrc: require('../assets/who_has_worked_with_us.png')
+    };
+  },
 });
 </script>

@@ -27,16 +27,16 @@ function importAll(r) {
 const photograpy_files = importAll(require.context('../assets/photograpy/', false, /\.(png|jpe?g|svg)$/));
 
 export default ({
-    components: {
-        FlexCenter,
-        DefaultText,
-        ImageTitle
-    },
-    data() {
-        return {
-            images: photograpy_files,
-            imageTitleSrc: require('../assets/photography.png')
-        };
-    },
+  components: {
+    FlexCenter,
+    DefaultText,
+    ImageTitle
+  },
+  data() {
+    return {
+      images: photograpy_files,
+      imageTitleSrc: require('../assets/photography.png')
+    };
+  },
 });
 </script>

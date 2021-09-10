@@ -19,15 +19,15 @@ import DefaultText from './DefaultText.vue';
 import ImageTitle from './ImageTitle.vue';
 
 export default ({
-    components: {
-        FlexCenter,
-        DefaultText,
-        ImageTitle
-    },
-    data () {
-        return {
-            imageTitleSrc: require('../assets/social_media_management.png')
-        };
-    }
+  components: {
+    FlexCenter,
+    DefaultText,
+    ImageTitle
+  },
+  data () {
+    return {
+      imageTitleSrc: require('../assets/social_media_management.png')
+    };
+  }
 });
 </script>

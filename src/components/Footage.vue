@@ -39,24 +39,24 @@ const channelID = process.env.VUE_APP_YOUTUBE_CHANEL_ID;
 const maxResults = process.env.VUE_APP_YOUTUBE_MAX_RESULTS;
 
 export default ({
-    components: {
-        FlexCenter,
-        DefaultText,
-        ImageTitle
-    },
-    data() {
-        return {
-            iframeUrl: null,
-            imageTitleSrc: require('../assets/footage.png')
-        };
-    },
-    mounted() {
-        axios.get(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelID}&part=snippet,id&order=date&maxResults=${maxResults > 1 ? 1 : maxResults}`)
-            .then(({data})  => {
-                data.items.forEach(video => {
-                    this.iframeUrl = `https://www.youtube.com/embed/${video.id.videoId}`;
-                });
-            });
-    },
+  components: {
+    FlexCenter,
+    DefaultText,
+    ImageTitle
+  },
+  data() {
+    return {
+      iframeUrl: null,
+      imageTitleSrc: require('../assets/footage.png')
+    };
+  },
+  mounted() {
+    axios.get(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelID}&part=snippet,id&order=date&maxResults=${maxResults > 1 ? 1 : maxResults}`)
+      .then(({data}) => {
+        data.items.forEach(video => {
+          this.iframeUrl = `https://www.youtube.com/embed/${video.id.videoId}`;
+        });
+      });
+  },
 });
 </script>

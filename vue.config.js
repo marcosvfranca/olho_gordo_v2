@@ -1,8 +1,8 @@
 module.exports = {
-    pages: {
-      index: {
-        entry: 'src/main.js',
-        title: process.env.VUE_APP_TITLE,
-      },
-    }
-  };
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: process.env.VUE_APP_TITLE,
+    },
+  }
+};
