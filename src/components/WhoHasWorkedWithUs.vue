@@ -17,7 +17,6 @@ function importAll(r) {
 
 const who_has_worked_files = importAll(require.context('../assets/worked/', false, /\.(png|jpe?g|svg)$/));
 
-
 export default ({
     components: {
         FlexCenter,
