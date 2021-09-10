@@ -6,20 +6,20 @@
     <Photography />
     <Footage />
     <SocialMediaManagement />
-    <WhoHasWorkedWithUs/>
+    <WhoHasWorkedWithUs />
     <Footer />
   </BackGroundBlack>
 </template>
 
 <script lang="ts">
-import Header from './Header.vue'
-import BackGroundBlack from './BackGroundBlack.vue'
-import WhoWheAre from './WhoWheAre.vue'
-import Photography from './Photography.vue'
-import Footage from './Footage.vue'
-import SocialMediaManagement from './SocialMediaManagement.vue'
-import WhoHasWorkedWithUs from './WhoHasWorkedWithUs.vue'
-import Footer from './Footer.vue'
+import Header from './Header.vue';
+import BackGroundBlack from './BackGroundBlack.vue';
+import WhoWheAre from './WhoWheAre.vue';
+import Photography from './Photography.vue';
+import Footage from './Footage.vue';
+import SocialMediaManagement from './SocialMediaManagement.vue';
+import WhoHasWorkedWithUs from './WhoHasWorkedWithUs.vue';
+import Footer from './Footer.vue';
 
 export default ({
   components: {
@@ -32,5 +32,5 @@ export default ({
     WhoHasWorkedWithUs,
     Footer
   }
-})
+});
 </script>
