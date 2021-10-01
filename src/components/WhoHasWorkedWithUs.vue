@@ -5,7 +5,7 @@
       <img
         v-for="(item, index) in images"
         :key="index"
-        :src="item"
+        v-lazy="item"
         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 sm:w-60 sm:block sm:ml-auto sm:mr-auto sm:mb-3"
       >
     </div>

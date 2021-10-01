@@ -9,7 +9,7 @@
       <img
         v-for="(item, index) in images"
         :key="index"
-        :src="item"
+        v-lazy="item"
       >
     </div>
     <div class="content-center">

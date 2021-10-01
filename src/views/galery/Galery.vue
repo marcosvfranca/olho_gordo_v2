@@ -2,7 +2,7 @@
   <BackGroundBlack>
     <TopLogo />
     <section id="photos" class="mt-10">
-        <img v-for="(item, index) in images" :key="index" :src="item" class="cursor-pointer hover:opacity-70 transition-opacity delay-100" />
+        <img v-for="(item, index) in images" :key="index" v-lazy="item" class="cursor-pointer hover:opacity-70 transition-opacity delay-100" />
     </section>
   </BackGroundBlack>
 </template>

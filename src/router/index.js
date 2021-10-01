@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
-import Galeria from '@/views/galeria/Galeria.vue';
+import Galery from '@/views/galery/Galery.vue';
 
 const routes = [
   {
@@ -10,8 +10,8 @@ const routes = [
   },
   {
     path: '/galeria',
-    name: 'Galeria',
-    component: Galeria
+    name: 'Galery',
+    component: Galery
   }
 ];
 
